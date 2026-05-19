@@ -109,5 +109,4 @@ def remove_note(note_id: str):
 # ── List ───────────────────────────────────────────────────────────────────────
 
 def get_all_notes() -> list[dict]:
-    """Return a list of note summaries (id, title, created_at, updated_at)."""
     return list_notes()
