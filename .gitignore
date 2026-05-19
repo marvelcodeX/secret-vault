@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secret Vault — NEVER commit your actual vault data
+~/.secret_vault/
+vault_data.json
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
