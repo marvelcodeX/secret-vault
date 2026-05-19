@@ -124,5 +124,4 @@ def hash_master_password(password: str, salt: bytes) -> str:
     We don't store the password itself — just enough to verify it on login.
     """
     key = derive_master_key(password, salt)
-    # One extra SHA-256 round so the stored verifier ≠ the encryption key
     return hashlib.sha256(key).hexdigest()

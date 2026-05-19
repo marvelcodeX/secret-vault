@@ -44,7 +44,6 @@ class Session:
         self._master_key = None
 
 
-# Module-level singleton
 session = Session()
 
 
