@@ -102,9 +102,11 @@ On first run you'll be prompted to create a master password. After that, the enc
 
 ## Demo Images
 
-| | |
-|Password Creation|Note Operations|
+| Password Creation | Note Operations|
+|---|---|
 | ![Secret Vault screenshot 1](demo_images/SV_1.png) | ![Secret Vault screenshot 2](demo_images/SV_2.png) |
+
+---
 
 ## 📄 License
 
